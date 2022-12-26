@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8' />
+    <meta name='description' content='Пилипенко Максим ІО-01 Лабораторна №5' />
+    <meta name='keywords' content='Пилипенко, Лабораторна' />
+    <title>Пилипенко М.О.</title>
+</head>
+<link href='style.css' rel='stylesheet' />
+
+<body>
+    <h2>Завдання 1</h2>
+    <div id='task1'>
+        <fieldset>
+            <legend>Форма для заповнення:</legend>
+            <label for='name'>ПІБ</label>
+            <input id='name' type='text' placeholder='ТТТТТТ Т.Т.' onmouseover='onMouseOverRandomBg(this)' onmouseleave='onMouseLeaveClearBg(this)'>
+            <label for='variant'>Варіант</label>
+            <input id='variant' type='text' placeholder='ЧЧ' onmouseover='onMouseOverRandomBg(this)' onmouseleave='onMouseLeaveClearBg(this)'>
+            <label for='group'>Група</label>
+            <input id='group' type='text' placeholder='ТТ-ЧЧ' onmouseover='onMouseOverRandomBg(this)' onmouseleave='onMouseLeaveClearBg(this)'>
+            <label for='faculty'>Факультет</label>
+            <input id='faculty' type='text' placeholder='ТТТТ' onmouseover='onMouseOverRandomBg(this)' onmouseleave='onMouseLeaveClearBg(this)'>
+            <label for='birthday'>Дата народження</label>
+            <input id='birthday' type='text' placeholder='ЧЧ.ЧЧ.ЧЧЧЧ' onmouseover='onMouseOverRandomBg(this)' onmouseleave='onMouseLeaveClearBg(this)'>
+            <button type='button' onclick='onSubmit()'>Підтвердити</button>
+        </fieldset>
+    </div>
+    <hr>
+    <h2>Завдання 2</h2>
+    <label for='color_input'>Оберіть колір</label><input id='color_input' type='color'>
+    <script src='script.js'></script>
+</body>
+
+</html>
